@@ -1,0 +1,45 @@
+﻿生成启动时间为 2017/12/13 19:09:15。
+     1>项目“C:\D\project\Dgitserver\2dpainting\2dpainting.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /IC:\qt\qt5.4.1\5.4\msvc2013_64_opengl\include /IC:\qt\qt5.4.1\5.4\msvc2013_64_opengl\include\QtWidgets /IC:\qt\qt5.4.1\5.4\msvc2013_64_opengl\include\QtGui /IC:\qt\qt5.4.1\5.4\msvc2013_64_opengl\include\QtCore /Irelease /I"C:\qt\qt5.4.1\5.4\msvc2013_64_opengl\mkspecs\win32-msvc2013" /ZI /nologo /W3 /WX- /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"release\\" /Gd /TP /errorReport:prompt -Zm200 -Zc:strictStrings -w34100 -w34189 glwidget.cpp planet.cpp release\moc_glwidget.cpp window.cpp
+     1>cl : 命令行 warning D9038: 此平台上不支持 /ZI；请启用 /Zi
+         glwidget.cpp
+     1>c:\d\project\dgitserver\2dpainting\shader_s.h(64): warning C4101: “success”: 未引用的局部变量
+     1>c:\d\project\dgitserver\2dpainting\shader_s.h(65): warning C4101: “infoLog”: 未引用的局部变量
+     1>c:\d\project\dgitserver\2dpainting\glwidget.h(90): warning C4351: 新增行为:  默认情况下初始化数组“GLWidget::vertices”的元素
+     1>c:\d\project\dgitserver\2dpainting\glwidget.h(91): warning C4351: 新增行为:  默认情况下初始化数组“GLWidget::indices”的元素
+     1>glwidget.cpp(47): warning C4305: “初始化”: 从“double”到“float”截断
+     1>glwidget.cpp(48): warning C4305: “初始化”: 从“double”到“float”截断
+     1>glwidget.cpp(60): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+     1>glwidget.cpp(61): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+     1>glwidget.cpp(62): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+     1>glwidget.cpp(64): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+     1>glwidget.cpp(65): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+     1>glwidget.cpp(66): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+     1>glwidget.cpp(67): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+     1>glwidget.cpp(68): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+     1>glwidget.cpp(69): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+     1>glwidget.cpp(70): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+     1>glwidget.cpp(71): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+     1>glwidget.cpp(72): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+     1>glwidget.cpp(73): error C2661: “planet::planet”: 没有重载函数接受 5 个参数
+         planet.cpp
+     1>.\shader_s.h(64): warning C4101: “success”: 未引用的局部变量
+     1>.\shader_s.h(65): warning C4101: “infoLog”: 未引用的局部变量
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         moc_glwidget.cpp
+     1>c:\d\project\dgitserver\2dpainting\shader_s.h(64): warning C4101: “success”: 未引用的局部变量
+     1>c:\d\project\dgitserver\2dpainting\shader_s.h(65): warning C4101: “infoLog”: 未引用的局部变量
+     1>c:\d\project\dgitserver\2dpainting\release\../glwidget.h(90): warning C4351: 新增行为:  默认情况下初始化数组“GLWidget::vertices”的元素
+     1>c:\d\project\dgitserver\2dpainting\release\../glwidget.h(91): warning C4351: 新增行为:  默认情况下初始化数组“GLWidget::indices”的元素
+         window.cpp
+     1>c:\d\project\dgitserver\2dpainting\shader_s.h(64): warning C4101: “success”: 未引用的局部变量
+     1>c:\d\project\dgitserver\2dpainting\shader_s.h(65): warning C4101: “infoLog”: 未引用的局部变量
+     1>c:\d\project\dgitserver\2dpainting\glwidget.h(90): warning C4351: 新增行为:  默认情况下初始化数组“GLWidget::vertices”的元素
+     1>c:\d\project\dgitserver\2dpainting\glwidget.h(91): warning C4351: 新增行为:  默认情况下初始化数组“GLWidget::indices”的元素
+         正在生成代码...
+     1>已完成生成项目“C:\D\project\Dgitserver\2dpainting\2dpainting.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.00
